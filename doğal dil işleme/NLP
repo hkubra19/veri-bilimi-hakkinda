@@ -1,0 +1,27 @@
+DOĞAL DİL İŞLEME/NLP NASIL KULLANILIR?
+
+Öncelikle doğal dil işleme algoritması,bilgisayarların insan dilini anlaması, işlemesi ve üretmesi için tasarlanmış bir dizi teknik ve algoritmadır.
+Bu teknik ve algoritma, insan dilindeki kelime anlamlarını, dilbilgisi yapılarını, anlamsal ilişkileri, cümle yapılarını ve diğer dil özelliklerini otomatik olarak anlamak ve işlemek için kullanılır
+NLP, çevrimiçi müşteri yorumlarının analizinden, anket yanıtlarının sınıflandırılmasına ve diyalog sistemlerinin tasarlanmasına kadar birçok alanda kullanılır.
+Günümüzde çoğu şirket NLP sistemlerine yönelmeye başlamıştır.
+Şu an kullandığımız birçok uygulama,website vb. dijital platformlar NLP sistemlerini güçlendirmek için önemli yatırımlar yapmaya yönelmektedir.
+Peki neden bu kadar önemli bu NLP sistemi?
+NLP sistemleri özellikle duyguları anlamaya ve metin verilerini anlamlı hale getirmeye yönelik birçok farklı algoritma yapma olanağı sunar.
+İlk adım, kelime dağarcığı analizidir. Bu adımda, bir metin içindeki kelimeler ayrıştırılır ve bu kelimelerin anlamları belirlenir. Bu adım, metindeki kelimelerin duygu yönünü belirlemeye yardımcı olur.
+Daha sonra, duygusal kelime dağarcığı oluşturma işlemi yapılır. Bu işlemde, belirli bir duyguya sahip kelimeler (mutlu, üzgün, korkmuş, vb.) bir listeye kaydedilir. Bu liste, daha sonra duygusal analiz için kullanılır.
+Metin sınıflandırma, bir metnin hangi kategoride olduğunu belirlemek için kullanılır. Bu kategoriler, olumlu, olumsuz veya nötr olabilir. Bu sınıflandırma, belirli bir metnin hangi duygu yönünde olduğunu belirlemeye yardımcı olur.
+Son olarak, duygu analizi yapılır. Bu analiz, bir metnin ne kadar pozitif veya negatif olduğunu belirlemek için kullanılır. Bu analizde, metindeki kelimelerin duygu yönleri, duygusal kelime dağarcığı ve metin sınıflandırması kullanılır.
+Oluşturulan NLP sistemi sınıflandırmada olmayan duygu anlatım biçimlerini nasıl algılar? Benzetme yaparak.
+Bir benzetme algoritması genellikle şu adımları takip eder:
+
+Metinleri Temizleme: Algoritmaya verilen metinler öncelikle özel karakterler, sayılar ve işaretler gibi gereksiz öğelerden temizlenir. Ayrıca, stop words adı verilen yaygın kelimeler de kaldırılabilir.
+
+Kelimelerin Özelliklerinin Çıkarılması: Metinlerdeki her kelime için bir vektör oluşturulur. Bu vektörler, kelimenin frekansı veya TF-IDF gibi özelliklerini temsil edebilir.
+
+Benzerlik Skorunun Hesaplanması: İki farklı metin arasındaki benzerlik skoru, bu metinlerdeki kelime vektörlerinin benzerliği üzerine hesaplanır. Cosine benzerliği gibi ölçütler kullanılabilir.
+
+Benzerlik Skorunun Yorumlanması: Hesaplanan benzerlik skoru, belirli bir eşik değerinin üzerinde olduğunda, metinler arasında benzerlik olduğu kabul edilebilir.
+
+Benzetme algoritmaları, metinlerin benzerliklerini ölçmenin yanı sıra, özetleme, özet çıkarma ve makine çevirisi gibi diğer NLP işlemlerinde de kullanılabilir. Bu algoritmalar, farklı endüstrilerde, özellikle de arama motorları, reklamcılık ve sosyal medya gibi alanlarda yaygın olarak kullanılır.
+
+Her geçen gün yapak zekadaki hızlı gelişmelerle birlikte duygu analizlerinin güçlenmesi,robot sanayinin artmasına ve günlük hayatımıza robotların dahil olmasına büyük olanak sağlayacaktır.
